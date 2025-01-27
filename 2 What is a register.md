@@ -2,6 +2,8 @@ A register is a memory block that exists inside a CPU. They store data temporari
 
 The main differences between a register and cache are the following:
 
+![image](https://github.com/user-attachments/assets/2efdc717-56dd-41a3-b534-676acb00ab77)
+
 
 At a hardware level registers are no other than combination of flip flops. Since 1 flip-flop stores 1 bit of data, to make an 8 bit register and arrange of 8 flip-flop in parallel is made.
 So, every register is composed of multiple flip-flops in parallel. As such, the register is activated by a shared clock signal that synchronices them. Also it has control circuitry that determines when the registers: load data, holds data and outputs data. So data can be written, read and stored (temporarily).
@@ -23,3 +25,7 @@ They are mainly used because they are much faster than cache and RAM.
 All levels of memory in cache (L1, L2, and L3) communicate with each other, and data can jump between them.
 
 Registers are usually made from a faster SRAM type than cache.
+
+![image](https://github.com/user-attachments/assets/2b74bfd6-884b-4235-9880-f41e8e735af6)
+
+
